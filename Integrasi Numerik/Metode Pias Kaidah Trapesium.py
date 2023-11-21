@@ -15,6 +15,10 @@ def trapezoidal_rule(a, b, f, h):
     result = h*fi/2
     return result
 
+# Fungsi yang akan diintegrasikan
+def user_function(x):
+    return 1/(1+x)  # Ganti dengan fungsi yang diinginkan
+
 # Input dari pengguna
 a = float(input("Masukkan batas bawah (a): "))
 b = float(input("Masukkan batas atas (b): "))
